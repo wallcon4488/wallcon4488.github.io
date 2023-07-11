@@ -1,39 +1,33 @@
 <!DOCTYPE html>
 <html lang="eng" data-bs-theme="dark">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfolio of Connor Wall</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    </head>
+<head>
+    <!-- formatting -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <body>
-        <h1>The Portfolio of Connor Wall</h1>
+    <!-- style -->
+    <link href="style.css" rel="stylesheet">
 
-        <h2>Projects</h2>
+    <!-- website title -->
+    <title>Portfolio of Connor Wall</title>
 
-        <ul>
-        <li><a href="https://wallcon.itch.io/eecs-494-project-1">The Legend of Zelda (Unity Remaster)</a></li>
-        In the original The Legend of Zelda dungeon, I coded most of the enemies and their movements, the camera movement,
-        and all of the enemy/room clear drops. Additionally, I coded the triggers such as automatically locking doors, 
-        moveable blocks, and door/key unlocks. In our custom dungeon, I designed the entirety of the dungeon layout, 
-        the ball launchers, and how the ball bounces off of walls after being hit.
+    <!-- bootstrap, first is css and second is js (currently including popper) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</head>
 
-        <li><a href="https://wallcon.itch.io/eecs-494-project-2">Titan</a></li>
-        Titan is a game I made almost entirely from scratch, minus the sprites and sound effects. I designed player movement, 
-        player abilities, camera movement, enemy design, level design, respawn mechanics and most importantly, the concept 
-        and implementation of the player character being able to transform between their regular size and their "titan" form. 
-        I hope to expand on this game in my free time, because I think it is a really interesting mechanic.
-
-        <li><a href="https://personman32.itch.io/tennis-hero">Tennis Hero</a></li>
-        Tennis Hero is a 3D third-person action-adventure game where players travel across an island resort and defeat enemies 
-        by hitting the enemies' tennis balls back at them. This game was developed from scratch by 5 people over the course of
-        6 weeks for the final project of our Senior Capstone, EECS 494: Introduction to Game Development. In the group, I acted
-        as the creative lead and a general programmer. I came up with the story, theming, level concepts, projectile types, and 
-        a large potion of the enemies. I came up with the idea of the Robot Army and coded most of their functionality. More 
-        importantly, however, I came up with each of the three bosses and coded them by hand. Using free 3D models from the 
-        Unity Asset Store, I was able to make engaging and fun sport-themed boss fights. Finally, I wrote and the directed the 
-        trailer for Tennis Hero, which can be seen on the itch.io page.
-        </ul>
-    </body>
+<body>
+    <!--script src="script/script.js"></script-->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Connor</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="projects.html">Projects</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
 </html>
